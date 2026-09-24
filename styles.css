@@ -1,7 +1,10 @@
 body {
-    font-family: system-ui, sans-serif;
+    font-family: 'Playpen Sans Arabic', sans-serif;
+    font-size: 30px;
+    color: #314d04;
     max-width: 600px;
     margin: 2rem auto;
+    background-image: url("images/bg1.jpg")
 }
 
 header {
@@ -31,4 +34,14 @@ li {
 .empty {
     opacity: .6;
     font-style: italic;
+}
+
+#add-item-button,
+#sort,
+#clear {
+    background-color: #314d04;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
